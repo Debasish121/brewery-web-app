@@ -219,6 +219,6 @@ app.get("/api/breweries", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT | 3001, () => {
-  console.log(`Server is Running `);
+app.listen(process.env.PORT || 3001, () => {
+  console.log(`Server is Running`);
 });
