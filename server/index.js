@@ -12,10 +12,13 @@ app.use(express.json());
 // MongoDB setup
 // Connect to MongoDB database
 mongoose
-  .connect("mongodb://localhost:27017/breweryReviewsDB", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(
+    "mongodb+srv://brewery:fSQFRjdHGwjW2VPz@cluster0.ubxafho.mongodb.net/?retryWrites=true&w=majority",
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  )
   .then(() => {
     console.log("MongoDB connected");
   })
