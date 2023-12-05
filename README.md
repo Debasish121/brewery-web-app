@@ -1,7 +1,4 @@
 # Brewery Review Web App
-
-## Description
-
 This is a web application designed to allow users to search for breweries, view details about them, and leave reviews. Users can sign up, log in, search for breweries by city, name, or type, and access detailed information about individual breweries, including reviews left by other users.
 
 ## Features
@@ -65,3 +62,4 @@ Once the installations and configurations are completed, execute the project.
 
 
 ## Demo Video Link : 
+[Link](https://drive.google.com/file/d/1jruvxnF_260R27kQVXrmMokiNbxyKgow/view?usp=sharing)
